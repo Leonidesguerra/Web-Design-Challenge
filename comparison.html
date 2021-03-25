@@ -8,13 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="/Resources/style.css" type= "text/css">
-    <title>max_temp</title>
+    <title>Comparison</title>
     
   </head>
 
   <body>
 
-    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-1 shadow">
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-2 shadow">
       <a class="navbar-brand col-md-3 col-lg-7 col-sm-1 me-0 px-3" href="index.html">Latitude</a>
      
       <ul class= "navbarlink col-md-3 col-sm-3">
@@ -41,62 +41,43 @@
   
     </header>
 
-    <main class= "container-fluid p-5">
+    <main class= "container">
       
       <div class="row">
-        <!-- latitude vs weather title -->
-        <div class= "summary col-lg-6">
-            <p class="summary_title">Max Temperature</p>
-            <hr>
-         <!-- inser image for the summary    -->
-            <div class="row">
-              <div class= " summary col-lg-12">
-                <img class= " vis_img" src="/Resources/assets/images/latitude_vs_max-t.png" alt="latitude_vs_max-t"  width="700" height="500" >
-              </div>
-              
-              <div class= " summary col-lg-12">
-                <p>
-                    While analyzing the temperatures in relation to latitude position. We can confirm that as you get closer to the equator (Latitude 0) it gets warmer. Since this data is from February, summer on the southern hemisphere and winter on the northern hemisphere. It is expected to be warmer on the southern hemisphere than on the northern hemisphere, on this time of the year, as can be seen on the plot.
-                </p>
-              </div>
-           </div>          
-        </div>
-
-        <div class= "col-lg-1">
-          <p></p> 
-          
-        </div>
+        
 
         <!-- visualizations  side bar-->
-        <div class= "summary col-lg-5">
-          <p class="summary_title"> Visualizations</p>
+        <div class= "summary col-lg-12">
+          <p class="summary_title"> Comparison: Latitude vs X</p>
           <hr>
           <div class="row">
-            <div class= "col-lg-6">
-            <div class="float-left">Max temperature</div><br>
-             <a href="max_temp.html"><img class= "vis_img" src="/Resources/assets/images/latitude_vs_max-t.png" alt="latitude_vs_max-t"  width="300" height="200"></a>
+            <div class= "col-lg-6 comt">
+            <p class="text-center">Vs Max temperature</p>
+             <a href="max_temp.html"><img src="/Resources/assets/images/latitude_vs_max-t.png" alt="latitude_vs_max-t"  width="400" height="250"></a>
             </div>
-            <div class= "col-lg-6">
-              <div class="float-left">Humidity</div><br>
-              <a href="humidity.html"><img class= "vis_img" src="/Resources/assets/images/latitude_vs_humidity.png" alt="Humidity"  width="300" height="200">
+            <div class= "col-lg-6 comt">
+              <p class="text-center">Vs Humidity</p>
+              <a href="humidity.html"><img src="/Resources/assets/images/latitude_vs_humidity.png" alt="latitude_vs_max-t"  width="400" height="250">
               </a>
             </div>
           </div>
-
+          <br>
+          
           <div class="row">
-          <div class= "col-lg-6">
-            <div class="float-left">Cloudiness</div><br>
-            <a href="cloudiness.html"><img class= "vis_img" src="/Resources/assets/images/latitude_vs_cloudiness.png" alt="cloudines"  width="300" height="200">
+          <div class= "col-lg-6 comt">
+            <p class="text-center">Vs Cloudiness</p>
+            <a href="cloudiness.html"><img src="/Resources/assets/images/latitude_vs_cloudiness.png" alt="latitude_vs_max-t"  width="400" height="250">
             </a>
           </div>
-          <div class= "col-lg-6">
-            <div class="float-left">Wind Speed</div><br>
-            <a href="wind_speed.html"><img class= "vis_img" src="/Resources/assets/images/Latitude_vs_wind-speed.png" alt="wind_speed"  width="300" height="200">
+          
+          <div class= "col-lg-6 comt">
+            <p class="text-center">Vs Wind Speed</p>
+            <a href="wind_speed.html"><img src="/Resources/assets/images/Latitude_vs_wind-speed.png" alt="latitude_vs_max-t"  width="400" height="250">
             </a>
           </div>
         </div>
         
-        </div>
+        
 
         
       </div>
