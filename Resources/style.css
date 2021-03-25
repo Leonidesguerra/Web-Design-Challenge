@@ -1,9 +1,8 @@
 body{ 
     background-color: rgb(219, 232, 236);
   }
-
-hr{
-    font-weight: 10px;
+p{
+  color:rgb(56, 56, 56)
 }
 .dropplots {
     
@@ -36,18 +35,22 @@ hr{
     background-color: rgba(0, 0, 0, 0);
 }
 
+
 .summary{
     background-color: rgba(211, 214, 214, 0.774);
-
+    
 }
-
+.summary_img{
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
 .summary_title{
     padding-top: 3rem;
     padding-right: 3rem;
     font-size: 2rem;
 }
 
-
-/* .thumb {
-    width: 50px;
-} */
+#summ_text {
+    float: right;
+    
+} 

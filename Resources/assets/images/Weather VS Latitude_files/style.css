@@ -1,3 +1,52 @@
-h1{
-    color: blue
+body{ 
+    background-color: rgb(219, 232, 236);
+  }
+
+.dropplots {
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0);
+  }
+
+  .navbarlink {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+     
+
+  }
+  .navbarlink li {
+    display: inline-block;
+    font-size: 1.3rem;
+  }
+
+  .navbar-brand {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0);
 }
+
+
+.summary{
+    background-color: rgba(211, 214, 214, 0.774);
+}
+.summary_img{
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+.summary_title{
+    padding-top: 3rem;
+    padding-right: 3rem;
+    font-size: 2rem;
+}
+
+#summ_text {
+    float: right;
+} 
