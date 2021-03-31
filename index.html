@@ -35,8 +35,8 @@
           </div>
 
         </li>
-        <li><a class= "navbarlink" href="comparison.html">Comparison</a></li>
-        <li><a class= "navbarlink" href="data.html">Data</a></li>
+          <li><a class= "navbarlink" href="comparison.html">Comparison</a></li>
+          <li><a class= "navbarlink" href="data.html">Data</a></li>
       </ul>
   
     </header>
@@ -50,22 +50,20 @@
             <hr>
          <!-- inser image for the summary    -->
             <div class="row">
-              <div class= " summary col-lg-5">
-                <img class= "summary_img" src="/Resources/assets/images/latitude_vs_max-t.png" alt="latitude_vs_max-t"  width="300" height="200">
-              </div>
-              <!-- 1st summary paragraph -->
-              <div class= " summary col-lg-7">
-                <p class="summary_taext">
-                   Latitude Vs Weather is a project intended to analyse the relationship between weather of cities arround the world and their priximity to the equator. In order to do this, a list of more than 500 aleatory cities where chosen.  Once the city list with each city’s geolocation was generated, the weather information was pulled from the Open weather API and converted into a data frame.<br>
-                </p>
-              </div>
-              <!-- 2nd summary paragraph -->
-              <div class= " summary col-lg-12">
-                <p>
+              <div class= " summary col-lg-12 ">
+                  
+                
+                <img class= "img-responsive summary_img " src="/Resources/assets/images/latitude_vs_max-t.png" alt="latitude_vs_max-t"  width="300" height="200" >
+              
+                <p class="pull-right"> 
+                  Latitude Vs Weather is a project intended to analyse the relationship between weather of cities arround the world and their priximity to the equator. In order to do this, a list of more than 500 aleatory cities where chosen.  Once the city list with each city’s geolocation was generated, the weather information was pulled from the Open weather API and converted into a data frame.<br>
+                  <br>
                   Once the data frame was generated several analysis were performed on it using Matplotlib and Jupyter Notebook. The analysis took into account temperature, cloudiness, wind speed, and humidity and the relationship these variables have with the city’s latitude or “closeness to the equator”. In this site we are presenting the results for each of the factors analyzed, with visualizations generated during the study and the conclusions that resulted from it.
                 </p>
+                 
               </div>
-           </div>          
+              
+           </div>         
         </div>
 
         <div class= "col-lg-1">
@@ -78,26 +76,27 @@
           <p class="summary_title"> Visualizations</p>
           <hr>
           <div class="row">
-            <div class= "col-lg-6 ">
+            <div class= "col-lg-6 col-md-8 ">
             <div class="float-left">Max temperature</div><br>
-             <a href="max_temp.html"><img class= "vis_img" src="/Resources/assets/images/latitude_vs_max-t.png" alt="latitude_vs_max-t"  width="300" height="200"></a>
+             <a href="max_temp.html"><img class= "img-fluid vis_img" src="/Resources/assets/images/latitude_vs_max-t.png" alt="latitude_vs_max-t"  >
+            </a>
             </div>
-            <div class= "col-lg-6">
+            <div class= "col-lg-6 col-md-8">
               <div class="float-left">Humidity</div><br>
-              <a href="humidity.html"><img class= "vis_img" src="/Resources/assets/images/latitude_vs_humidity.png" alt="humidity"  width="300" height="200">
+              <a href="humidity.html"><img class= "img-fluid vis_img" src="/Resources/assets/images/latitude_vs_humidity.png" alt="humidity">
               </a>
             </div>
           </div>
 
           <div class="row">
-          <div class= "col-lg-6">
+          <div class= "col-lg-6 col-md-8">
             <div class="float-left">Cloudiness</div><br>
-            <a href="cloudiness.html"><img class= "vis_img" src="/Resources/assets/images/latitude_vs_cloudiness.png" alt="cloudines"  width="300" height="200">
+            <a href="cloudiness.html"><img class= "img-fluid vis_img" src="/Resources/assets/images/latitude_vs_cloudiness.png" alt="cloudines" >
             </a>
           </div>
-          <div class= "col-lg-6">
+          <div class= "col-lg-6 col-md-8">
             <div class="float-left">Wind Speed</div><br>
-            <a href="wind_speed.html"><img class= "vis_img" src="/Resources/assets/images/Latitude_vs_wind-speed.png" alt="wind_speed"  width="300" height="200">
+            <a href="wind_speed.html"><img class= "img-fluid vis_img" src="/Resources/assets/images/Latitude_vs_wind-speed.png" alt="wind_speed">
             </a>
           </div>
         </div>

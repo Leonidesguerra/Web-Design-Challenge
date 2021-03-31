@@ -41,38 +41,51 @@
   
     </header>
 
-    <main class= "container">
+    <main class= "container-fluid p-5">
       
-      <div class="row">
+      <div class="row summary">
         
+        <div class= "summary col-lg-3">
+          <p class="summary_title"> Comparison:</p>
+        </div>
 
-        <!-- visualizations  side bar-->
-        <div class= "summary col-lg-12">
-          <p class="summary_title"> Comparison: Latitude vs X</p>
-          <hr>
-          <div class="row">
-            <div class= "col-lg-6 comt">
-            <p class="text-center">Vs Max temperature</p>
-             <a href="max_temp.html"><img src="/Resources/assets/images/latitude_vs_max-t.png" alt="latitude_vs_max-t"  width="400" height="250"></a>
-            </div>
-            <div class= "col-lg-6 comt">
-              <p class="text-center">Vs Humidity</p>
-              <a href="humidity.html"><img src="/Resources/assets/images/latitude_vs_humidity.png" alt="latitude_vs_max-t"  width="400" height="250">
+        <div class= "summary col-lg-9"> 
+          <p class="summary_title"> Latitude vs X</p>
+        </div>
+      </div>
+
+        <div class="row summary">
+          <div class="col-lg-12">
+            <hr>
+          </div>
+        </div>
+
+          <div class="row summary">
+            
+            <div class= "col-lg-6 col-md-12 col-sm-12 comt">
+              <p class="text-center">Vs Max temperature</p>
+              <a href="max_temp.html"><img class= "img-fluid compare_img" src="/Resources/assets/images/latitude_vs_max-t.png" alt="latitude_vs_max-t" >
               </a>
             </div>
+            <div class= "col-lg-6 col-md-12 col-sm-12 comt ">
+              <p class="text-center">Vs Humidity</p>
+              <a href="humidity.html"><img class= "img-fluid compare_img " src="/Resources/assets/images/latitude_vs_humidity.png" alt="latitude_vs_humidity">
+              </a>
+            </div>
+            <br>
           </div>
-          <br>
           
-          <div class="row">
-          <div class= "col-lg-6 comt">
+          
+          <div class="row summary">
+          <div class= "col-lg-6 col-md-12 col-sm-12 comt">
             <p class="text-center">Vs Cloudiness</p>
-            <a href="cloudiness.html"><img src="/Resources/assets/images/latitude_vs_cloudiness.png" alt="latitude_vs_max-t"  width="400" height="250">
+            <a href="cloudiness.html"><img class= "img-fluid compare_img" src="/Resources/assets/images/latitude_vs_cloudiness.png" alt="latitude_vs_cloudiness">
             </a>
           </div>
           
-          <div class= "col-lg-6 comt">
+          <div class= "col-lg-6 col-md-12 col-sm-12 comt">
             <p class="text-center">Vs Wind Speed</p>
-            <a href="wind_speed.html"><img src="/Resources/assets/images/Latitude_vs_wind-speed.png" alt="latitude_vs_max-t"  width="400" height="250">
+            <a href="wind_speed.html"><img class= "img-fluid compare_img" src="/Resources/assets/images/Latitude_vs_wind-speed.png" alt="latitude_vs_wind-speed"  >
             </a>
           </div>
         </div>
@@ -80,7 +93,7 @@
         
 
         
-      </div>
+      <!-- </div> -->
 
     </main>
 
